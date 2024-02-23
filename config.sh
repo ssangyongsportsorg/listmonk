@@ -1,15 +1,15 @@
 echo "
 [app]
-address = \"0.0.0.0:${PORT}\"
-admin_username = \"${ADMIN_USERNAME}\"
-admin_password = \"${ADMIN_PASSWORD}\"
+address = \"0.0.0.0:80\"
+admin_username = \"peter\"
+admin_password = \"yang545\"
 # Database.
 [db]
-host = \"${PGHOST}\"
-port = ${PGPORT}
-user = \"${PGUSER}\"
-password = \"${PGPASSWORD}\"
-database = \"${PGDATABASE}\"
+host = \"ep-shy-heart-a1dklr6d.ap-southeast-1.pg.koyeb.app\"
+port = 5432
+user = \"koyeb-adm\"
+password = \"hmFu5tXsae4j\"
+database = \"koyebdb\"
 ssl_mode = \"disable\"
 max_open = 25
 max_idle = 25
