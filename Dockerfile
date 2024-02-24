@@ -12,4 +12,4 @@ ENV PGPORT=5432
 ENV PGUSER=koyeb-adm
 
 # 运行Listmonk
-RUN ./listmonk --idempotent --yes --upgrade || ./listmonk --install --yes --upgrade
+RUN ./listmonk --install --yes --upgrade
