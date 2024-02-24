@@ -3,13 +3,13 @@ FROM listmonk/listmonk:latest
 
 # 设置环境变量
 ENV PORT=8080
-ENV ADMIN_PASSWORD=admin_password
-ENV ADMIN_USERNAME=admin_user
-ENV PGDATABASE=listmonk
-ENV PGHOST=localhost
-ENV PGPASSWORD=password
+ENV ADMIN_PASSWORD=yang545
+ENV ADMIN_USERNAME=peter
+ENV PGDATABASE=koyebdb
+ENV PGHOST=ep-shy-heart-a1dklr6d.ap-southeast-1.pg.koyeb.app
+ENV PGPASSWORD=hmFu5tXsae4j
 ENV PGPORT=5432
-ENV PGUSER=postgres
+ENV PGUSER=koyeb-adm
 
 # 运行Listmonk
 RUN ./listmonk --idempotent --yes --upgrade || ./listmonk --install --yes --upgrade
